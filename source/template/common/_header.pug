@@ -1,0 +1,22 @@
+include _mixin
+
+div ФИО 
+	br
+	input(type="text" id="myName")
+
+div Дата рожение
+	br
+	input(type="text" id="bday")
+
+div О себе
+	br
+	textarea(name="about" id="about")
+
+div
+	label
+		input(type="checkbox" id="issessionStorage") 
+		| использовать session storage
+
+div
+	button#seve  Сохранить
+	button#load Загрузить

@@ -1,0 +1,48 @@
+block variables
+
+doctype html
+html(lang="ru" dir="ltr").no-js
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+		meta(meta http-equiv="X-UA-Compatible" content="ie=edge")
+		title #{title}
+		// favicon
+		meta(property="og:image" content="path/to/image.jpg")
+		link(rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon")
+		link(rel="apple-touch-icon" href="assets/img/favicon/apple-touch-icon.png")
+		link(rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-touch-icon-72x72.png")
+		link(rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-touch-icon-114x114.png")
+
+		meta(name="msapplication-TileColor" content="#00aba9")
+		meta(name="msapplication-TileImage" content="img/favicon/mstile-114x114.png")
+		// end favicon
+
+		// Chrome, Firefox OS and Opera
+		meta(name="theme-color" content="#181818")
+		// Windows Phone
+		meta(name="msapplication-navbutton-color" content="#181818")
+		// iOS Safari
+		meta(name="apple-mobile-web-app-status-bar-style" content="#181818")
+		// iOS and Android browser Disable conversion of phone numbers into links
+		meta(name="format-detection" content="telephone=no")
+		// BlackBerry browser Disable conversion of phone numbers into links
+		meta(http-equiv="x-rim-auto-match" content="none")
+
+		// SEO
+		meta(name="description" content="")
+		meta(name="keywords" content="")
+		meta(name="author" content="")
+		meta(name="copyright" content="")
+		// scripts analytics
+
+		// SEO End
+		
+		link(rel="stylesheet" href="assets/css/app.css")
+		// scripts
+	body.home__page
+		.wrapper
+			.maincontent
+				main
+					block content
+		script(src="assets/js/bundle.js")

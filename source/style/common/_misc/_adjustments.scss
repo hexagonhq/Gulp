@@ -1,0 +1,109 @@
+html {
+	font-size: 100.01%;
+	width: 100%;
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: $default-font;
+	font-size: 16px;
+	line-height: 1.52947;
+	font-weight: normal;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-osx-font-smoothing: auto;
+	direction: ltr;
+	color: #333;
+}
+
+.wrapper {
+	position: relative;
+	min-width: 320px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+figure {
+	margin: 0;
+}
+
+menu {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+button:disabled {
+	cursor: default;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+textarea:focus,
+input:focus,
+a:focus {
+	outline: none;
+}
+
+:focus {
+	outline: 3px solid #c1e0fe;
+	outline: 3px solid rgba(131, 192, 253, 0.5);
+	outline-offset: 1px
+}
+
+::-moz-focus-inner {
+	border: 0;
+	padding: 0
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	padding: 0;
+}
+
+input,
+a {
+	border: none;
+}
+a, button {
+	-webkit-tap-highlight-color: transparent;
+}
+
+a:link,
+a:visited {
+	text-decoration: none
+}
